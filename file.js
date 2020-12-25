@@ -1,63 +1,3 @@
-/*Global Console*/
-/*
-syntac:indexof(value,start position);
-split:split(separator,limit)
-slice:slice(start,end)
-substr:substr(start,length)
-charAt(index);
-replace(value,new)
-string.fromCharCode(num1,num2,num3,num4);
-concat(string,string,string,string);
-for loop syntax:
-for(initialization;condition;final expression){
-//statement
-}
-for (variable in object){
-  if(objectName.hasOwnProperty(Variable)){
-  //statement
-  }
-}
-*/
-/*While(condition){
-  statement
-}
-*/
-/* i:case insensitive
- g:global "get all corresponding values;يعني امشي بقى كمل لحد 
- "الاخر
- m:multiline search
- Brackets Use
- []:character
- [^ ]:not character
- [a-e]:range small or capital letters egal was ich moechte
- [0-9]:range of numbers
- [^0-9]:not range for ex not range of numbers
- [A-g] = range[A-Z] Range [a-g]
- [0-9a-z]:double range
- + لو الحرف متكرر اكتر من مره 
- {} لو العدد متكرر برقم معين
- {number, }:at least 
- {number,number}:entweder oder
-*/
-/*
-new Date();// Print current date and time
-new Date(Milliseconds);//print millseconds from UTC 1 Jan 1970 00:00:00
-new Date(DateString[Month d,yyyy h:m:s])
-new Date(Year,Month,Day[Hour,Min,Sec,Millisec])
-Full Format 
-Long Format 
-Short Format
-Iso Format
-getDate():get day of the month 1-31
-getDay():get day of the week 0-6
-getFullYear():get year
-getHours,getMinutes(),getSeconds(),getMilliseconds 0-999
-getTime()//Number of Millisec from 1970 or specific date
-*/
-/* Regular expression syntax 
-/pattern/attributes
-search | replace | match | split | test
-*/
 document.body.style.fontFamily = "Arial,Tahoma";
 document.body.style.margin = "0";
 document.body.style.padding = "0";
@@ -66,7 +6,7 @@ document.body.style.boxSizing = "border-box";
 document.body.appendChild(topSec);
 topSec.style.width = "1519px";
 topSec.style.height = "700px";
-topSec.style.backgroundImage = "url('/universe.jpg')";
+topSec.style.backgroundImage = "url('https://raw.githubusercontent.com/Hibanelson/DOMProject/master/universe.jpg')";
 topSec.style.backgroundSize = "100% 100%";
 topSec.style.margin = "0";
 topSec.style.padding = "0";
@@ -236,7 +176,7 @@ for(var i = 0;i < container2Divs.length;i++){
 for(var i = 0;i < container2Divs.length;i++){
     container2Divs[i].appendChild(container2Images[i]);
 }
-var imgSrc = ["/browser.svg","/tweet.svg","/picture.svg","/laptop.svg"];
+var imgSrc = ["https://raw.githubusercontent.com/Hibanelson/DOMProject/74edafa84dd7cd5fcbe3ac242b1798f38b6a3c8f/browser.svg","https://raw.githubusercontent.com/Hibanelson/DOMProject/74edafa84dd7cd5fcbe3ac242b1798f38b6a3c8f/tweet.svg","https://raw.githubusercontent.com/Hibanelson/DOMProject/74edafa84dd7cd5fcbe3ac242b1798f38b6a3c8f/picture.svg","https://raw.githubusercontent.com/Hibanelson/DOMProject/74edafa84dd7cd5fcbe3ac242b1798f38b6a3c8f/laptop.svg"];
 for(var i = 0;i < container2Images.length;i++){
     container2Images[i].style.width = "102px";
     container2Images[i].style.height = "102px";
@@ -349,7 +289,7 @@ article1P2.style.color = "rgb(85,85,85)";
 article1P2.style.paddingLeft = "20px";
 var article1Img = document.createElement("img");
 container3.appendChild(article1Img);
-article1Img.src = "/tech.jpg";
+article1Img.src = "https://raw.githubusercontent.com/Hibanelson/DOMProject/master/tech.jpg";
 article1Img.style.display = "block";
 article1Img.style.width = "410px";
 article1Img.style.height = "275px";
@@ -362,7 +302,7 @@ message.style.width = "1519px";
 message.style.height = "135px";
 message.style.borderTop ="5px solid #000";
 message.style.borderBottom ="5px solid #000";
-message.style.backgroundImage = "url('/software.jpg')";
+message.style.backgroundImage = "url('https://raw.githubusercontent.com/Hibanelson/DOMProject/master/software.jpg')";
 message.style.backgroundSize = "cover";
 var messageP = document.createElement("p");
 message.appendChild(messageP);
@@ -397,7 +337,7 @@ container4P.style.fontSize = "30px";
 container4P.style.fontWeight = "700";
 span3.style.color = "rgb(156, 39, 176)";
 var container4Images = [];
-var imgSrc2 = ["/node.png","/php.png","/ruby.png","/python.png","/csharp.png","/java.png"];
+var imgSrc2 = ["https://raw.githubusercontent.com/Hibanelson/DOMProject/master/node.png","https://raw.githubusercontent.com/Hibanelson/DOMProject/master/php.png","https://raw.githubusercontent.com/Hibanelson/DOMProject/master/ruby.png","https://raw.githubusercontent.com/Hibanelson/DOMProject/master/python.png","https://raw.githubusercontent.com/Hibanelson/DOMProject/master/csharp.png","https://raw.githubusercontent.com/Hibanelson/DOMProject/master/java.png"];
 for(var i = 0;i < 6;i++){
 container4Images.push(document.createElement("img"));
 container4.appendChild(container4Images[i]);    
